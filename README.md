@@ -3,6 +3,7 @@ A Python walkthrough in isolation
 
 ## Data specification
 (Draft of assumed data specifications)
+
 The expected data format are files of:
 - An MGH file containing the cortical thickness at each vertex of the left hemisphere for each subject
 - An MGH file containing the cortical thickness at each vertex of the left hemisphere for each subject
