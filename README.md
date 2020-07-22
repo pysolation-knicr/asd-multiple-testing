@@ -18,7 +18,7 @@ The vertices are assumed to be accessible in the first dimension of the MGH file
 (Draft of assumed directory structure):
 
 IDC refers to the numerical code that is linked to a subject. <br>
-\_0 refers to the index of that numerical code, so IDC\_0 can is the first subject, IDC\_N is the last subject.
+\_0 refers to the index of that numerical code, so IDC\_0 is the first subject, IDC\_N is the last subject.
 ```
 -- absolute_data_path
 |   -- IDC_0
