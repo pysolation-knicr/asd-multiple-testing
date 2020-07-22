@@ -2,12 +2,21 @@
 A Python walkthrough in isolation
 
 ## Data specification
-You should write what kind of data we are using here
+(Draft of assumed data specifications)
+The expected data format are files of:
+- An MGH file containing the cortical thickness at each vertex of the left hemisphere for each subject
+- An MGH file containing the cortical thickness at each vertex of the left hemisphere for each subject
+- An MGH file containing the cortical area at each vertex of the left hemisphere for each subject
+- An MGH file containing the cortical area at each vertex of the right hemisphere for each subject
+- An MGH file containing the cortical local gyrification index at each vertex of the left hemisphere for each subject
+- An MGH file containing the cortical local gyrification index at each vertex of the right hemisphere for each subject
+
+The vertices are assumed to be accessible in the first dimension of the MGH file.
 
 ## Directory structure
-(Rough draft of assumed directory structure):
+(Draft of assumed directory structure):
 ```
--- absolute\_data\_path
+-- absolute_data_path
 |   -- IDC_0
 |   -- IDC_1/
 |   -- IDC_N-1/
