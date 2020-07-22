@@ -1,5 +1,5 @@
 #  Autism spectrum disorder multiple testing script
-A Python walkthrough in isolation
+A Python script to walkthrough in isolation
 
 ## Data specification
 (Draft of assumed data specifications)
