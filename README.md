@@ -16,12 +16,17 @@ The vertices are assumed to be accessible in the first dimension of the MGH file
 
 ## Directory structure
 (Draft of assumed directory structure):
+
+IDC refers to the numerical code that is linked to a subject. <br>
+\_0 refers to the index of that numerical code, so IDC\_0 can is the first subject, IDC\_N is the last subject.
 ```
 -- absolute_data_path
 |   -- IDC_0
 |   -- IDC_1/
+|   -- ...
 |   -- IDC_N-1/
 |   -- IDC_N/
+|   |   (the following subdirectory and files exist for each subject)
 |   |   -- surf/
 |   |   |   -- lh.thickness.fwhm10.fsaverage.mgh
 |   |   |   -- rh.thickness.fwhm10.fsaverage.mgh
